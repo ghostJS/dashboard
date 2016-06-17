@@ -2,7 +2,7 @@ body, html {
   height: 100%; }
 
 nav {
-  background: #111;
+  background: #272323;
   color: #fff;
   height: 100%; }
 
@@ -26,5 +26,18 @@ nav {
   height: 75px;
   background: #f8f8f8;
   color: #111; }
+
+.menu {
+  width: 100%;
+  margin-top: 30px;
+  padding: 25px 0px 20px 20px; }
+  .menu h4 {
+    font-size: 12px;
+    display: inline;
+    padding-left: 5px; }
+  .menu img {
+    display: inline; }
+  .menu:hover {
+    background: #1d1b1b; }
 
 /*# sourceMappingURL=main.css.map */

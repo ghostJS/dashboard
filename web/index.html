@@ -10,19 +10,38 @@
         
     </head>
     <body ng-controller="globalController">
-        <nav class="col-md-1 col-sm-1 col-xs-1">
+        <nav class="col-md-2 col-xs-2">
             <div class="row">
-                <div class="left-bar-top col-md-12 col-sm-12">
+                <div class="left-bar-top col-md-12">
                     <a href="#">
                         <img class="logo" src="images/logo-dashboard.png" />
                     </a>
                 </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="menu col-md-12 col-xs-12">
+                            <img src="images/icon-left-1.png" />
+                            <h4>Wskaźniki</h4>
+                        </div>
+
+                        <div class="menu col-md-12 col-xs-12">
+                            <img src="images/icon-left-2.png" />
+                            <h4>Pracownicy</h4>
+                        </div>
+
+                        <div class="menu col-md-12 col-xs-12">
+                            <img src="images/icon-left-3.png" />
+                            <h4>Baza klientów</h4>
+                        </div>
+                    </div>
+
+                </div>
             </div>  
         </nav>
         
-        <section class="col-md-11 col-sm-11 col-xs-11">
+        <section class="col-md-10 col-xs-10">
             <div class="row">
-                <div class="info col-md-12 col-sm-12">
+                <div class="info col-md-12">
                     <h1>Kokpit menedżerski: {{ wskaz }} </h1>
                 </div>
             </div>
