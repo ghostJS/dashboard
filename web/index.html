@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="dashboard">
+    <head>
+        <title>Gamma Corp: Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.min.css">
+        
+    </head>
+    <body ng-controller="globalController">
+        <nav class="col-md-1 col-sm-1 col-xs-1">
+            <div class="row">
+                <div class="left-bar-top col-md-12 col-sm-12">
+                    <a href="#">
+                        <img class="logo" src="images/logo-dashboard.png" />
+                    </a>
+                </div>
+            </div>  
+        </nav>
+        
+        <section class="col-md-11 col-sm-11 col-xs-11">
+            <div class="row">
+                <div class="info col-md-12 col-sm-12">
+                    <h1>Kokpit menedżerski: {{ wskaz }} </h1>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <h2>Dashboards area</h2>
+                    <h3>{{ message }}</h3>
+                </div>
+            </div>
+        </section>
+        
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

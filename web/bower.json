@@ -1,0 +1,20 @@
+{
+  "name": "dashboard",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "ghostJS <ghostjs@o2.pl>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
